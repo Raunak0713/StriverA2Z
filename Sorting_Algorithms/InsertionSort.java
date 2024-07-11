@@ -13,6 +13,9 @@ public class InsertionSort {
                 j--;
             }
         }
+        for(int a : arr){
+            System.out.print(a + " ");
+        }
     }
     public static void swap(int[] arr, int a, int b){
         int temp = arr[a];
