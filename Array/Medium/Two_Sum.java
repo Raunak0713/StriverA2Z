@@ -2,7 +2,7 @@ package Array.Medium;
 
 import java.util.HashMap;
 
-public class TwoSum {
+public class Two_Sum {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> ans = new HashMap<>();
         int n = nums.length;
