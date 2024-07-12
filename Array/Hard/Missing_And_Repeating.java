@@ -1,4 +1,4 @@
-package Array.Medium;
+package Array.Hard;
 
 public class Missing_And_Repeating {
     int[] findTwoElement(int arr[], int n) {
