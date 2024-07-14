@@ -1,4 +1,4 @@
-package Binary_Search.Easy;
+package Binary_Search.BS_on_1D_Array;
 
 public class Implement_Lower_Bound {
     static int findFloor(long arr[], int n, long x) {

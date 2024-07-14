@@ -1,4 +1,4 @@
-package Binary_Search.Easy;
+package Binary_Search.BS_on_1D_Array;
 
 public class Binary {
     public int search(int[] nums, int target) {
