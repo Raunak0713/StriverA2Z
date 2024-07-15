@@ -26,3 +26,13 @@ public class Create_Binary_Tree {
         root0.right.right = new Node(v.get(6));
     }
 }
+
+
+
+                        //     1
+                        //    /  \
+                        //   2    3
+                        //  / \  / \
+                        // 4   56   7
+                        //    /    / \
+                        //   8    9   10
