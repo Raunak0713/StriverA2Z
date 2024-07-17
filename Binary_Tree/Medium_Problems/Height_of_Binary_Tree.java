@@ -14,13 +14,11 @@ class TreeNode {
 }
 
 public class Height_of_Binary_Tree {
-    class Solution {
-        public int maxDepth(TreeNode root) {
-            if(root == null){
-                return 0;
-            }
-    
-            return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
+    public int maxDepth(TreeNode root) {
+        if(root == null){
+            return 0;
         }
+
+        return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
     }
 }
