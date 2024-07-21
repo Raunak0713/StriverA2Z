@@ -7,6 +7,8 @@ public class LinkedList {
         PrintLinkedList(head);
         System.out.println("Length of linked list is " + LengthOfLinkedList(head));
         System.out.println();
+        System.out.println(CheckIfPresent(head, 3));
+        System.out.println();
     }
     public static Node ConvertArrToLinkedList(int[] arr){
         if(arr.length == 0) return null;
@@ -43,5 +45,15 @@ public class LinkedList {
             mover = mover.next;
         }
         return counter;
+    }
+    public static boolean CheckIfPresent(Node head, int target){
+        Node mover = head;
+        while(mover != null){
+            if(mover.data == target){
+                return true;
+            }
+            mover = mover.next;
+        }
+        return false;
     }
 }
