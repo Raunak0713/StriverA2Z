@@ -1,10 +1,12 @@
 package LinkedList.Singly_Linked_List;
 
-public class ArrayToLinkedList {
+public class LinkedListFunctions {
     public static void main(String[] args) {
         int[] arr = {1, 5, 3, 8, 4, 6};
         Node head = ConvertArrToLinkedList(arr);
         PrintLinkedList(head);
+        System.out.println("Length of linked list is " + LengthOfLinkedList(head));
+        System.out.println();
     }
     public static Node ConvertArrToLinkedList(int[] arr){
         if(arr.length == 0) return null;
@@ -32,5 +34,14 @@ public class ArrayToLinkedList {
         }
         System.out.println("]");
         System.out.println();
+    }
+    public static int LengthOfLinkedList(Node head){
+        int counter = 0;
+        Node mover = head;
+        while(mover != null){
+            counter++;
+            mover = mover.next;
+        }
+        return counter;
     }
 }
