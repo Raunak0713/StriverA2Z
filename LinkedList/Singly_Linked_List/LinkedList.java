@@ -1,6 +1,6 @@
 package LinkedList.Singly_Linked_List;
 
-public class LinkedListFunctions {
+public class LinkedList {
     public static void main(String[] args) {
         int[] arr = {1, 5, 3, 8, 4, 6};
         Node head = ConvertArrToLinkedList(arr);
