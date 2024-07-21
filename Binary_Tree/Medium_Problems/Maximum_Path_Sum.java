@@ -1,5 +1,7 @@
 package Binary_Tree.Medium_Problems;
 
+import Binary_Tree.Traversal.TreeNode;
+
 public class Maximum_Path_Sum {
     int MaxSum = Integer.MIN_VALUE;
     public int maxPathSum(TreeNode root) {

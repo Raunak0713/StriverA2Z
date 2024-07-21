@@ -1,5 +1,7 @@
 package Binary_Tree.Medium_Problems;
 
+import Binary_Tree.Traversal.TreeNode;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;

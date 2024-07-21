@@ -1,5 +1,7 @@
 package Binary_Tree.Medium_Problems;
 
+import Binary_Tree.Traversal.TreeNode;
+
 public class Identical_Trees {
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if (p == null && q == null) {

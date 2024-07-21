@@ -3,34 +3,23 @@ package Binary_Tree.Traversal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode() {}
-    TreeNode(int val) { this.val = val; }
-    TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
-    }
-}
+
 public class IterativePreOrder {
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> ans = new ArrayList<>();
-        if(root == null){
+        if (root == null) {
             return ans;
         }
         Stack<TreeNode> st = new Stack<>();
         st.push(root);
 
-        while(!st.isEmpty()){
+        while (!st.isEmpty()) {
             root = st.pop();
             ans.add(root.val);
-            if(root.right != null){
+            if (root.right != null) {
                 st.push(root.right);
             }
-            if(root.left != null){
+            if (root.left != null) {
                 st.push(root.left);
             }
         }
