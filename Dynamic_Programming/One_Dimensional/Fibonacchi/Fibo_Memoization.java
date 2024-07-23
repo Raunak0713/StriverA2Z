@@ -3,7 +3,6 @@ package Dynamic_Programming.One_Dimensional.Fibonacchi;
 import java.util.Arrays;
 
 public class Fibo_Memoization {
-    class Solution {
     int[] DP;
     public int fib(int n) {
         DP = new int[n+1];
@@ -17,5 +16,4 @@ public class Fibo_Memoization {
         }
         return DP[n] = solve(n-1) + solve(n-2);
     }
-}
 }
