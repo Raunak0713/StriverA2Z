@@ -1,6 +1,6 @@
 package Dynamic_Programming.One_Dimensional.Fibonacchi;
 
-public class Recursion {
+public class Fibo_Recursion {
     public int fib(int n) {
         return solve(n);
     }
